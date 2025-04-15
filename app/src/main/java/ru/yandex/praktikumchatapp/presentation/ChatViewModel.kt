@@ -25,7 +25,6 @@ class ChatViewModel(
                     val currentMessages = _messages.value
                     _messages.value =
                         currentMessages + Message.OtherMessage(response)
-
                 }
             }
         }
